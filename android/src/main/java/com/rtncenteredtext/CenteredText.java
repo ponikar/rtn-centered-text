@@ -1,4 +1,4 @@
-package com.rtncenteredtext;
+package com.centeredtext;
 
 import androidx.annotation.Nullable;
 import android.content.Context;
@@ -8,19 +8,19 @@ import android.graphics.Color;
 import android.widget.TextView;
 import android.view.Gravity;
 
-public class RTNCenteredText extends TextView {
+public class CenteredText extends TextView {
 
-    public RTNCenteredText(Context context) {
+    public CenteredText(Context context) {
         super(context);
         this.configureComponent();
     }
 
-    public RTNCenteredText(Context context, @Nullable AttributeSet attrs) {
+    public CenteredText(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         this.configureComponent();
     }
 
-    public RTNCenteredText(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public CenteredText(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.configureComponent();
     }
